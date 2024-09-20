@@ -22,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-3_+25_zerd=%j4c%c%cg00k!gbnr@(ho09^9nlc+_!wepee@&('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -148,15 +147,7 @@ REST_FRAMEWORK = {
     )
 }
 
-# AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID '
-# AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_ACCESS_KEY'
-# AWS_STORAGE_BUCKET_NAME = 'AWS_STORAGE_BUCKET_NAME'
-# AWS_S3_SIGNATURE_NAME = 's3v4',
-# AWS_S3_REGION_NAME = 'AWS_S3_REGION_NAME'
-# AWS_S3_FILE_OVERWRITE = False
-# AWS_DEFAULT_ACL =  None
-# AWS_S3_VERITY = True
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
 
 
 
