@@ -18,6 +18,8 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+SECRET_KEY = 'django-insecure-3_+25_zerd=%j4c%c%cg00k!gbnr@(ho09^9nlc+_!wepee@&('
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
@@ -27,6 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition

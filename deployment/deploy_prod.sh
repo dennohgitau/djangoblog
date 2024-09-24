@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ssh root@134.209.208.182 <<EOF
-  cd blogprojectdrf
+ssh root@192.168.125.255 <<EOF
+  cd devops/blogprojectdrf
   git pull 
   source env/bin/activate
   ./manage.py migrate
