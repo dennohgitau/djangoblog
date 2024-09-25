@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh denis@192.168.125.107 <<EOF
+ssh -o StrictHostKeyChecking=no denis@192.168.125.107 <<EOF
   sudo -su root <<EOC
     cd /root/drfblogproject
     git pull
